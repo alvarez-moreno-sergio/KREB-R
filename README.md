@@ -10,8 +10,10 @@ This patch disables Redmine's email sending and syncronizes it to send them as J
 Eventually, those messages will be read from a JAVA standalone application, which will send them to its original recipients.
 
 Related github repositories:
-delivery_boy: https://github.com/alvarez-moreno-sergio/delivery_boy
+
+delivery_boy: https://github.com/zendesk/delivery_boy
 
 Gems needed:
-gem 'ruby-kafka'
-gem 'delivery_boy'
+* gem 'ruby-kafka'
+
+* gem 'delivery_boy'
