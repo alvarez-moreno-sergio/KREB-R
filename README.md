@@ -8,3 +8,10 @@ This tool is born due to Office365 policies; stablishing a workaround solution f
 This repository includes the patches needed to apply onto Redmine to work this out.
 This patch disables Redmine's email sending and syncronizes it to send them as JSON to a Kafka Topic. 
 Eventually, those messages will be read from a JAVA standalone application, which will send them to its original recipients.
+
+Related github repositories:
+delivery_boy: https://github.com/alvarez-moreno-sergio/delivery_boy
+
+Gems needed:
+gem 'ruby-kafka'
+gem 'delivery_boy'
