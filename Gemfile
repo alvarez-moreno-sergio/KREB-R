@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 # gem's versions fixes due to issue in 'blundle' command
 gem 'minitest', '5.12.0'
-gem 'nokogiri', '~> 1.6.8.rc2'
+gem "nokogiri", ">= 1.10.8"
 gem 'ffi', '1.9.25'
 # gem 'rb-inotify', '0.9.8'
 gem 'public_suffix', '3.1.1'
@@ -30,6 +30,7 @@ gem "actionpack-xml_parser"
 gem "mimemagic"
 
 # Request at least nokogiri 1.6.7.2 because of security advisories
+# gem 'nokogiri', '~> 1.6.8.rc2'
 # gem "nokogiri", ">= 1.6.7.2"
 
 # Request at least rails-html-sanitizer 1.0.3 because of security advisories 
